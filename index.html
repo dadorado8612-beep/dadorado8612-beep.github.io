@@ -3,54 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "styles.css">
-    <script src  =  "scripts.js"></script>
-    <title>My portfolio v1.0</title>
-    <link rel = "icon" type= "image/png" href=" icons/main_icon.png">
-    
+    <title>My Portfolio v1.0</title>
 
-   
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="icons/main_icon.png">
 </head>
 <body>
+
     <header>
         <nav>
-            <h1>My portfolio</h1>
+            <h1>My Portfolio</h1>
+
             <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">My projects</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-projects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id = "about-me">
-       <h2> about me</h2>
-       <img src = "#" alt = "Profile photo">
-       <p> Hello, I'm David A. Dorado.
-        I work as a software developer</p> 
-       
-    </section>
-    <section id = "my-projects">
-        <h2> My projects </h2>
-        <div clase= "project">
-            <img src ="#" alt="project 1">
-            <h3> project 1</h3>
-            <p align >This is my first personal project</p>
-            
-            <a href="#">More info</a>
-            
 
-        </div>
-        <div clase= "project">
-            <img src ="#" alt="project 2">
-            <h3> project 2</h3>
-            <p align >This is my secund personal project</p>
-            
-            <a href="#">More info</a>
+    <section id="about-me">
+        <h2>About Me</h2>
 
+        <img src="images/profile.jpg" alt="Profile Photo">
+
+        <p>
+            Hello, I'm David A. Dorado.
+            I work as a software developer and I enjoy creating websites,
+            software solutions and database systems.
+        </p>
+    </section>
+
+    <section id="my-projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <img src="images/project1.jpg" alt="Project 1">
+
+            <h3>Project 1</h3>
+
+            <p>
+                This is my first personal project.
+            </p>
+
+            <a href="#">More Info</a>
+        </div>
+
+        <div class="project">
+            <img src="images/project2.jpg" alt="Project 2">
+
+            <h3>Project 2</h3>
+
+            <p>
+                This is my second personal project.
+            </p>
+
+            <a href="#">More Info</a>
         </div>
     </section>
-    <section>
-        
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: david@example.com</p>
+        <p>Phone: +57 300 000 0000</p>
     </section>
+
+    <footer>
+        <p>&copy; 2026 David A. Dorado. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+
 </body>
 </html>
